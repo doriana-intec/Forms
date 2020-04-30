@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <title>Form demo</title>
+</head>
+<body>
+    
+    <form>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="John Doe">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="info@example.com" required>
+
+        <label for="topic">Topic</label>
+        <select name="topic" id="topic">
+            <option value="collaboration">Collaboration</option>
+            <option value="technical issue">Technical issue</option>
+            <option value="other">other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <button type="submit">Send message</button>
+    </form>
+</body>
+</html>
